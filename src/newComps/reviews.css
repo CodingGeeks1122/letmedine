@@ -1,0 +1,17 @@
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1%;
+  }
+
+  .dotClicked {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(190 137 13);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1%;
+  }

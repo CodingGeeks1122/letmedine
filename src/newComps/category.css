@@ -1,0 +1,77 @@
+.cat{
+    width: 100%;
+    padding: 5%;
+}
+
+@media screen and (max-width: 2560px){
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width: 1707px) {
+    .cat{
+        height:22vw;
+    } 
+}
+
+@media screen and (max-width: 1600px){
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width:1423px){
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width:1366px){
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width: 1164px){
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .cat{
+        height:24vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width: 854px){
+    .cat{
+        height:22vw;
+    }
+}
+
+@media screen and (max-width: 500px){   
+    .cat{
+        height:40vw;
+    }
+}
+
