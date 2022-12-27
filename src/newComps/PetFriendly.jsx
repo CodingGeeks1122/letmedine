@@ -6,7 +6,7 @@ import './pet.css';
 
 const PetFriendly = () => {
   return (
-    <Container style={{backgroundColor:'rgb(232 225 207)', paddingTop: "5%"}}>
+    <Container style={{backgroundColor:'rgb(232 225 207)', paddingTop: "10%"}}>
         <Row>
             <Col xs="12" sm="12" md="2" lg="2" xl="2"></Col>
             <Col xs="12" sm="12" md="8" lg="8" xl="8" style={{textAlign: "center"}}>

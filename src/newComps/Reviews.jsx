@@ -20,7 +20,7 @@ const Reviews = () => {
     }, [buttonNo])
 
   return (
-    <Container style={{backgroundColor:'#f6f4f1', paddingTop: '5%'}}>
+    <Container style={{backgroundColor:'#f6f4f1', paddingTop: '10%'}}>
         <Row>
             <Col xs="12" sm="12" md="6" lg="6" xl="6" style={{textAlign: 'left'}}>
                 <span className='headingBlack'>WHAT OUR RESTAURANT PATRONS SAY</span><br/>

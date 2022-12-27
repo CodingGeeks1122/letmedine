@@ -12,7 +12,7 @@ import './category.css';
 
 const FoodCategory = () => {
   return (
-    <Container style={{marginTop: "80px"}}>
+    <Container style={{marginTop: "80px", paddingBottom: '10%'}}>
         <Row>
             <Col xs="12" sm="12" md="2" lg="2" xl="2"></Col>
             <Col xs="12" sm="12" md="8" lg="8" xl="8">

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Menu = () => {
   return (
-    <Container style={{paddingTop: "5%", backgroundColor: '#eeebe6'}}>
+    <Container style={{paddingTop: "10%", backgroundColor: '#eeebe6'}}>
         <Row>
             <Col xs="12" sm="12" md="2" lg="2" xl="2"></Col>
             <Col xs="12" sm="12" md="8" lg="8" xl="8">
