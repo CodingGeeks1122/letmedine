@@ -12,12 +12,12 @@ const FoodCategory = () => {
   return (
     <Container style={{marginTop: "80px"}}>
         <Row>
-            <Col xs="12" sm="12" md="3" lg="3" xl="3"></Col>
-            <Col xs="12" sm="12" md="6" lg="6" xl="6">
-                <span style={{fontSize:"3vw"}}>MEET OUR RESTAURANT FOOD &#38; BEVERAGES CATEGORY</span><br/>
-                <span style={{fontSize:'4vw',zIndex:"1", color:"rgb(190 137 13)",fontFamily: 'Brush Script MT, Brush Script Std, cursive'}}>Restaurant food &#38; beverages</span>
+            <Col xs="12" sm="12" md="2" lg="2" xl="2"></Col>
+            <Col xs="12" sm="12" md="8" lg="8" xl="8">
+                <span className='heading'>MEET OUR RESTAURANT FOOD &#38; BEVERAGES CATEGORY</span><br/>
+                <span className='subHeading'>Restaurant food &#38; beverages</span>
             </Col>
-            <Col xs="12" sm="12" md="3" lg="3" xl="3"></Col>
+            <Col xs="12" sm="12" md="2" lg="2" xl="2"></Col>
         </Row>
         <Row>
             <Col xs="6" sm="6" md="3" lg="3">

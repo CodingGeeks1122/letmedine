@@ -8,17 +8,17 @@ const Footer = () => {
     <Container style={{paddingTop: "40px"}}>
         <Row>
             <Col xs="12" sm="12" md="6">
-                <Row><span style={{fontSize:"3vw", color: 'white'}}>YOU CAN CONTACT US BY ANY KIND OF COMMUNICATION</span><br/>
-                <span style={{fontSize:'4vw',zIndex:"1", color:"rgb(190 137 13)",fontFamily: 'Brush Script MT, Brush Script Std, cursive'}}>&emsp;&emsp;Contact Information</span></Row>
+                <Row><span className='heading'>YOU CAN CONTACT US BY ANY KIND OF COMMUNICATION</span><br/>
+                <span className='subHeading'>&emsp;&emsp;Contact Information</span></Row>
                 <Row style={{marginTop:"5%"}}>
                     <Col xs="12" sm="6" md="6">
                         <span style={{fontSize:'1.5vw', color: 'grey'}}>LOCATION</span><br/>
-                        <span style={{fontSize:'2vw'}}>Mehragaon, Bhowali-Bhimtal Road, Uttarakhand (263132)</span>
+                        <span style={{fontSize:'2vw', color: 'white'}}>Mehragaon, Bhowali-Bhimtal Road, Uttarakhand (263132)</span>
                     </Col>
                     <Col xs="12" sm="6" md="6">
                         <span style={{fontSize:'1.5vw', color: 'grey'}}>PHONE</span><br/>
-                        <span style={{fontSize:'2vw'}}>+91-8882322223</span><br/>
-                        <span style={{fontSize:'2vw'}}>+91-8527915558</span>
+                        <span style={{fontSize:'2vw', color: 'white'}}>+91-8882322223</span><br/>
+                        <span style={{fontSize:'2vw', color: 'white'}}>+91-8527915558</span>
                     </Col>
                 </Row>
                 <Row>

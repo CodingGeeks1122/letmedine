@@ -23,8 +23,8 @@ const Reviews = () => {
     <Container style={{backgroundColor:'#f6f4f1', paddingTop: '5%'}}>
         <Row>
             <Col xs="12" sm="12" md="6" lg="6" xl="6" style={{textAlign: 'left'}}>
-                <span style={{fontSize:"3vw", color: 'black'}}>WHAT OUR RESTAURANT PATRONS SAY</span><br/>
-                <span style={{fontSize:'4vw',zIndex:"1", color:"rgb(190 137 13)",fontFamily: 'Brush Script MT, Brush Script Std, cursive'}}>Testimonials</span><br/>
+                <span className='headingBlack'>WHAT OUR RESTAURANT PATRONS SAY</span><br/>
+                <span className='subHeading'>Testimonials</span><br/>
                 <img src={Review} width="100%"/><br/>
                 <div style={{textAlign: 'right'}}>
                     <span className={buttonNo==="1" ? "dotClicked" : "dot"} onClick={() => setButtonNo("1")}></span>
