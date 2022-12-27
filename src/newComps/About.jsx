@@ -21,7 +21,7 @@ const About = () => {
             <Col md="6" sm="12" xs="12" lg="6" style={{textAlign: 'right'}}>
                 <hr />
                 <span style={{fontSize:'4vw', color: '#7a7a7a'}}>Since 2022</span> <br/>
-                <img src={IMG} width="90%" height= "40%" />
+                <img src={IMG} width="90%" />
             </Col>
         </Row>
         <Row>

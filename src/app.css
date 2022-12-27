@@ -425,10 +425,9 @@ span:hover{
     }
     
     .lmd{
-        font-size: 16vw;
+        font-size: 14vw;
         color: white;
         font-weight: bolder;
-        word-spacing: 0.2em;
         font-family: Brush Script MT, Brush Script Std, cursive;
     }
     
