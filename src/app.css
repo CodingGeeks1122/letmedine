@@ -15,23 +15,23 @@ span:hover{
 }
 
 .heading{
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: Cormorant Garamond, sans-serif;
     color: white;
 }
 .headingBlack{
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: Cormorant Garamond, sans-serif;
     color: black;
 }
 .subHeading{
-    font-size: 5vw;
+    font-size: 4vw;
     color: rgb(190 137 13);
     font-family: Brush Script MT, Brush Script Std, cursive;
 
 }
 .content{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: Cormorant Garamond, sans-serif;
     color: white;
 }

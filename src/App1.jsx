@@ -9,6 +9,7 @@ import Gallery from './newComps/Gallery';
 import Footer from './newComps/Footer';
 import PetFriendly from './newComps/PetFriendly';
 import Reviews from './newComps/Reviews';
+import Celebation from './newComps/Celebation';
 
 function App1() {
 
@@ -21,7 +22,7 @@ function App1() {
             <Col xs="3" sm="3" md="2" lg="2" xl="2"><span className='navHeading'>Let Me Dine</span></Col>
             <Col></Col>
             <Col style={{paddingTop: "1%"}}> <span className='navOptions'>Home</span></Col>
-            <Col style={{paddingTop: "1%"}}> <span className='navOptions'>Menu</span></Col>
+            <Col style={{paddingTop: "1%"}}> <a href="https://tbdigimenu.in/letmedine/" target='_blank' style={{color:'rgb(190 137 13)'}}><span className='navOptions'>Menu</span></a></Col>
             <Col style={{paddingTop: "1%"}}> <span className='navOptions'>Gallery</span></Col>
             <Col style={{paddingTop: "1%"}}><span className='navOptions'>Contact</span></Col>
           </Row>
@@ -30,7 +31,7 @@ function App1() {
           </Row>
           <Row className='align-items-center' style={{height: '40%'}}>
             <Col style={{textAlign: 'center', paddingTop: '2%'}}>
-              <span className='lmdSm'>RESTAURANT &#38; CAFE</span>
+              <span className='lmdSm'>DINE-IN RESTAURANT</span>
             </Col>
           </Row>
           <Row className='align-items-end'>
@@ -41,6 +42,7 @@ function App1() {
       <About/>
       <FoodCategory/>
       <Menu/>
+      <Celebation/>
       <Gallery/>
       <PetFriendly />
       <Reviews />
